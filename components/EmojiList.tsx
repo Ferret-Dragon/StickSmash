@@ -16,6 +16,14 @@ export default function EmojiList({ onSelect, onCloseModal }: Props) {
     require("../assets/images/emoji5.png"),
     require("../assets/images/emoji6.png"),
     require("../assets/images/emoji7.png"),
+    require("../assets/images/emoji8.png"),
+    require("../assets/images/emoji9.png"),
+    require("../assets/images/emoji10.png"),
+    require("../assets/images/emoji11.png"),
+    require("../assets/images/emoji12.png"),
+    require("../assets/images/emoji13.png"),
+    require("../assets/images/emoji14.png"),
+    require("../assets/images/emoji15.png"),
   ]);
 
   return (
@@ -41,14 +49,12 @@ const styles = StyleSheet.create({
   listContainer: {
     borderTopRightRadius: 10,
     borderTopLeftRadius: 10,
-    paddingHorizontal: 20,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
+    paddingHorizontal: 10,
+    paddingVertical: 10,
   },
   image: {
-    width: 100,
-    height: 100,
-    marginRight: 20,
+    width: 80,
+    height: 80,
+    margin: 5,
   },
 });
