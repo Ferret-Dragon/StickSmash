@@ -36,7 +36,7 @@ export default function Index() {
     let result = await ImagePicker.launchImageLibraryAsync({
       mediaTypes: ['images'],
       allowsEditing: true,
-      quality: 1,
+      quality: 3,
     });
 
     if (!result.canceled) {
